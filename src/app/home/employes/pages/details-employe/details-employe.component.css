@@ -1,0 +1,11 @@
+.d-flex{
+    display: flex;
+ 
+    justify-content: space-between;
+}
+.col-4{
+    width: 24%;
+}
+.col-8{
+    width: 72%;
+}
