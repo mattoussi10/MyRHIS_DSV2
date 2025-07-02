@@ -1,0 +1,159 @@
+.titel-header-details-empoyer {
+    display: flex;
+    padding: 16px 32px 4px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px 0px 0px 0px;
+    background: #FFF;
+}
+
+.title-header {
+
+    color: var(--light-theme-rest-foreground-default-foreground-1424242, #424242);
+    font-family: "Segoe UI";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.arrow {
+    color: var(--light-theme-rest-foreground-default-foreground-1424242, #424242);
+    font-family: "Teams Assets";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page-title {
+    color: #385FE3;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gestion-employes-block {
+        display: flex
+;
+    padding-top: 14px;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+    align-self: stretch;
+    background: #FFF;
+    padding: 18px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.title-left-side {
+    color: var(--light-theme-rest-foreground-default-foreground-242424, #242424);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.img-left-side {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background: linear-gradient(343deg, #3D5BC0 8.92%, #4B8DFF 80.25%);
+
+
+
+}
+
+.right-side{
+    display: flex;
+align-items: center;
+gap: 12px;
+}
+.avatars{
+      display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  
+ 
+  margin-left: -1px; /* chevauchement */
+ 
+  object-fit: cover;
+}
+.avatar:first-child {
+  margin-left: 0;
+}
+.others-number{
+      border-radius: 120px;
+    border: 2px solid #fff;
+    background-color: #FF9B42;
+    padding: 2px;
+    
+    margin-top: 5px;
+
+}
+.number{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: var(--Font-size-200, 12px);
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 5px ;
+
+}
+.btn-ajouter{
+    border-radius: 16px;
+background: #385FE3;
+color: #FFF;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 153.846% */
+display: flex;
+padding: 5px 18px 5px 12px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+border: none;
+}
+.icon-bouton-2{
+display: flex;
+padding: 6px;
+align-items: flex-start;
+}
+.icon-bouton-2{
+    width: 20px;
+    height: 20px;
+}
+
+.icon-bouton{
+display: flex;
+padding: 6px;
+align-items: flex-start;
+}
+.icon-bouton{
+    width: 20px;
+    height: 20px;
+}

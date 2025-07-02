@@ -1,0 +1,94 @@
+<div class='dashboard'>
+    <div class="dashboard-nav">
+        <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo"> <img
+                    src="../assets/logo-createch-light.png" alt="" width="150px"></a></header>
+        <nav class="dashboard-nav-list">
+            <a routerLink="/dashboard" class="dashboard-nav-item"> <span class="material-symbols-outlined">
+                    home
+                </span>
+                <span class="menu-close">Tableau de bord</span>
+            </a>
+
+            <!-- <div class='dashboard-nav-dropdown'>
+                <a class="dashboard-nav-item dashboard-nav-dropdown-toggle"><span class="material-symbols-outlined">
+                        group
+                    </span>
+                    <span class="menu-close">Devis Fournisseur</span> </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a routerLink="/supplierQuote/add" class="dashboard-nav-dropdown-item"> <span
+                            class="material-symbols-outlined">
+                            add_circle
+                        </span>Ajouter un devis Fournisseur</a>
+                    <a routerLink="/supplierQuote/list" class="dashboard-nav-dropdown-item"><span
+                            class="material-symbols-outlined">
+                            list
+                        </span>liste des devis Fournisseur</a>
+                </div>
+            </div> -->
+
+            <div class='dashboard-nav-dropdown'>
+                <a class="dashboard-nav-item dashboard-nav-dropdown-toggle"><span class="material-symbols-outlined">
+                        group
+                    </span>
+                    <span class="menu-close">Employe</span> </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a routerLink="/categorie/add" class="dashboard-nav-dropdown-item"> <span
+                            class="material-symbols-outlined">
+                            add_circle
+                        </span>Ajouter</a>
+                    <a routerLink="/supplierOrder/list" class="dashboard-nav-dropdown-item"><span
+                            class="material-symbols-outlined">
+                            list
+                        </span>Voir la liste</a>
+                </div>
+            </div>
+
+            <div class='dashboard-nav-dropdown'>
+                <a class="dashboard-nav-item dashboard-nav-dropdown-toggle"><span class="material-symbols-outlined">
+                        group
+                    </span>
+                    <span class="menu-close">Livraisons Fournisseur</span> </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a routerLink="/supplierDelivery/add" class="dashboard-nav-dropdown-item"> <span
+                            class="material-symbols-outlined">
+                            add_circle
+                        </span>Ajouter</a>
+                    <a routerLink="/supplierDelivery/list" class="dashboard-nav-dropdown-item"><span
+                            class="material-symbols-outlined">
+                            list
+                        </span>Voir la liste</a>
+                </div>
+            </div>
+
+
+           
+
+
+
+
+
+
+
+
+
+
+        </nav>
+    </div>
+    <div class='dashboard-app'>
+        <header class='dashboard-toolbar'><a class="menu-toggle"><span class="material-symbols-outlined">
+                    menu
+                </span> </a>
+            <div>
+                <img class="image-toolbar" src="../../../../assets/images/logo-picto.PNG" alt="">
+            </div>
+            <div style="position:relative;right:30px;"><a routerLink="/" ><span class="material-symbols-outlined" style="color:#fff">
+                    logout
+                </span> </a></div>
+        </header>
+        <div class='dashboard-content'>
+            <div class='container'>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

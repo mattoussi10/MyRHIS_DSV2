@@ -1,0 +1,118 @@
+.contents-list-employes{
+    display: flex;
+width: 290px;
+padding-top: 12px;
+flex-direction: column;
+align-items: flex-start;
+background: #FFF;
+border: 1px solid #E0E0E0;
+display: flex;
+
+
+
+
+justify-content: center;
+
+gap: 10px;
+align-self: stretch;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+.search-box {
+        display: flex;
+        height: 34px;
+        padding: 0px 12px 0px 12px;
+        align-items: center;
+        
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 18px;
+       
+        border-radius: 48px;
+border: 2px solid #385FE3;
+margin: 0px 14px;
+    }
+
+    .search-box i {
+        color: #1A2024;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+    }
+
+    .search-box input {
+      
+        border: none;
+    }
+
+    .search-box .icon-left {
+        margin-right: 8px;
+    }
+
+    .search-box .icon-right {
+        margin-left: 8px;
+        cursor: pointer;
+    }
+.profil-employe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+          width: 272px;
+      padding-left: 14px;
+      position: relative;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.profil-employe:hover{
+border-right: 4px solid #385FE3;
+
+background: #DEE1FF;
+}
+.infos .nom {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.infos .role {
+  font-size: 13px;
+  color: gray;
+}
+.online svg{
+    position: absolute;
+    left: 8px;
+    top: 18px;
+
+}
+.role-employe{
+    display: flex;
+
+padding: 5px 0px;
+align-items: center;
+flex: 1 0 0;
+background-color: #F7F7FD;
+width: 290px;
+}
+.title-role{
+    color: #424242;
+text-align: justify;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+width: 100%;
+}
